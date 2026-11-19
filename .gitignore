@@ -1,0 +1,25 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Saved machine learning models
+*.joblib
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor settings
+.vscode/
+.idea/

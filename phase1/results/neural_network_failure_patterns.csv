@@ -1,0 +1,5 @@
+group,states,mean_player_hp,mean_enemy_hp,mean_distance,skillshot_pct,basic_attack_pct,dodge_available_pct,model_attack_pct,avoidable_death_pct,mean_regret
+all_states,5000,51.6624,52.8086,2.9728,32.14,34.04,33.36,51.4,0.13999999999999999,0.1572
+all_critical_failures,7,8.0,23.428571428571427,1.2857142857142858,57.14285714285714,42.857142857142854,57.14285714285714,100.0,100.0,93.0
+raas_failures,2,8.0,24.5,1.0,0.0,100.0,0.0,100.0,100.0,93.0
+unique_raas_failures,0,,,,,,,,,

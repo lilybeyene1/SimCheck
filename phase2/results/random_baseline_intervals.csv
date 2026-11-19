@@ -1,0 +1,9 @@
+model,query_budget,lower,upper
+neural_network,30,0.0,0.0
+neural_network,75,0.0,1.0
+neural_network,150,0.0,1.0
+neural_network,300,0.0,1.0
+random_forest,30,0.0,1.0
+random_forest,75,0.0,2.5249999999999915
+random_forest,150,0.0,3.5249999999999915
+random_forest,300,0.0,6.5249999999999915

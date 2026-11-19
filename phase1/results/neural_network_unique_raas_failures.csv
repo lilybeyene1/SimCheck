@@ -1,0 +1,1 @@
+state_id,player_hp,enemy_hp,distance,enemy_attack,dodge_cooldown,optimal_action,model_action,optimal_reward,achieved_reward,regret,critical_failure,avoidable_death

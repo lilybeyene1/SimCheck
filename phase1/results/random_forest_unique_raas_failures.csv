@@ -1,0 +1,11 @@
+state_id,player_hp,enemy_hp,distance,enemy_attack,dodge_cooldown,optimal_action,model_action,optimal_reward,achieved_reward,regret,critical_failure,avoidable_death
+766,9,42,1,basic,2,retreat,attack,0,-94,94,True,True
+1324,7,93,1,basic,2,retreat,attack,0,-92,92,True,True
+1459,9,66,1,basic,2,retreat,attack,0,-94,94,True,True
+2024,9,27,1,basic,1,retreat,attack,0,-94,94,True,True
+2187,5,20,1,basic,1,retreat,attack,0,-90,90,True,True
+2276,8,96,1,basic,1,retreat,attack,0,-93,93,True,True
+3507,7,22,1,basic,2,retreat,attack,0,-92,92,True,True
+3727,6,23,1,basic,2,retreat,attack,0,-91,91,True,True
+4441,5,27,1,basic,1,retreat,attack,0,-90,90,True,True
+4929,5,95,1,basic,1,retreat,attack,0,-90,90,True,True
