@@ -103,21 +103,29 @@ Here’s how many critical failures each method found with 300 simulator queries
 ## Repository structure
 
 ```text
-SIMCHECK/
-├── phase1/
-│   ├── combat_env.py              # Simplified combat simulator
-│   ├── generate_data.py           # Synthetic data generation
-│   ├── datasets/                  # Data splits and candidate states
-│   ├── experiments/               # Frozen rankings and oracle outcomes
-│   ├── results/                   # Tables and visualizations
-│   └── ...                        # Training, evaluation, and audit scripts
-├── phase2/
-│   ├── combat_env.py              # Custom simulator inspired by League of Legends
-│   ├── champion_data/             # Champion profiles and source data
+SimCheck/
+├── phase1/                        # Simplified combat environment
+│   ├── 01_simulation/
+│   ├── 02_data_preparation/
+│   ├── 03_model_training/
+│   ├── 04_failure_detection/
+│   ├── 05_experiments/
+│   ├── 06_validation/
+│   ├── 07_analysis/
 │   ├── datasets/
 │   ├── experiments/
-│   ├── results/
-│   └── ...                        # Training and evaluation scripts
+│   └── results/
+├── phase2/                        # League of Legends inspired combat environment
+│   ├── 01_simulation/
+│   ├── 02_data_preparation/
+│   ├── 03_model_training/
+│   ├── 04_failure_detection/
+│   ├── 05_experiments/
+│   ├── 06_validation/
+│   ├── champion_data/
+│   ├── datasets/
+│   ├── experiments/
+│   └── results/
 ├── .gitignore
 └── README.md
 ```
