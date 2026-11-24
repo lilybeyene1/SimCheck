@@ -98,7 +98,7 @@ Here’s how many critical failures each method found with 300 simulator queries
 
 **Phase 2 · Neural network**
 
-![Phase 2 neural network failure discovery](phase2/results/neural_network_failure_discovery.png)
+![Phase 2 neural network failure discovery](phase2/results/neural_network_failure_discovery.png) 
 
 ## Repository structure
 
