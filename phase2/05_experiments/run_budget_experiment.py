@@ -221,19 +221,6 @@ for model_name in MODELS:
             label=LABELS[method]
         )
 
-    band = intervals[
-        intervals["model"] == model_name
-    ].sort_values("query_budget")
-
-    plt.fill_between(
-        band["query_budget"].to_numpy(),
-        band["lower"].to_numpy(),
-        band["upper"].to_numpy(),
-        alpha=0.12,
-        color="gray",
-        label="Random 95% empirical interval"
-    )
-
     plt.xlabel("Simulator Query Budget")
     plt.ylabel("Critical Failures Discovered")
 
